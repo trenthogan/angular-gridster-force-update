@@ -345,7 +345,7 @@
 				item.oldRow = item.row = row;
 				item.oldColumn = item.col = column;
 
-				this.moveOverlappingItems(item, ignoreItems);
+				//this.moveOverlappingItems(item, ignoreItems);
 
 				if (!this.grid[row]) {
 					this.grid[row] = [];
